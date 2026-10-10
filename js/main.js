@@ -4,7 +4,7 @@ const modalClose = document.querySelector(".close");
 
 function Moodal() {
   modalEl.classList.toggle("hidden");
-  modalClose.classList.toggle("hidden");
+  showModalEl.classList.toggle("hidden");
 }
 
 showModalEl.addEventListener("click", () => Moodal());

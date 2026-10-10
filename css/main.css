@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Iceberg&display=swap");
 
 body {
-  font-family: "Iceberg", display;
+  font-family: "Iceberg", sans-serif;
 }
 
 .ShowModal {
@@ -25,6 +25,8 @@ body {
 body {
   display: flex;
   justify-content: center;
+  align-items: center;
+  min-height: 100vh;
   background-color: #097d9a;
 }
 
@@ -97,6 +99,24 @@ img {
   color: white;
   font-size: 20px;
   font-weight: 600;
+}
+
+.close {
+  display: flex;
+  align-self: flex-end;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.close img {
+  display: block;
+  width: 20px;
+  height: 20px;
+  margin-bottom: 0;
 }
 
 .hidden {
